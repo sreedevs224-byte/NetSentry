@@ -112,3 +112,6 @@ Only scan networks and devices that you own or have explicit permission to test.
 Developed as a cybersecurity learning and portfolio project.
 
 **Project:** NetSentry v1.0
+## 📸 Dashboard Preview
+
+![NetSentry Dashboard](screenshots/dashboard.png)
