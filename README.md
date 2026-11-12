@@ -115,3 +115,13 @@ Developed as a cybersecurity learning and portfolio project.
 ## 📸 Dashboard Preview
 
 ![NetSentry Dashboard](screenshots/dashboard.png)
+## 📸 Project Screenshots
+
+### 1. Dashboard
+![Dashboard](screenshots/dashboard.png)
+
+### 2. Network Discovery
+![Network Scan](screenshots/network-scan.png)
+
+### 3. Security Risk Analysis
+![Security Report](screenshots/security-report.png)
