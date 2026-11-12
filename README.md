@@ -1,6 +1,7 @@
-# 🛡️ NetSentry – Smart Network Security Auditor
+# 🛡️ NetSentry v1.0
+### Smart Network Security Auditor
 
-NetSentry is a Python-based network security auditing tool designed to discover devices, scan common TCP ports, identify services, analyze basic security risks, and generate professional PDF security reports.
+NetSentry is a Python-based network security auditing tool designed to discover network devices, scan TCP ports, detect running services, analyze potential security risks, and generate PDF security reports.
 
 ## 🚀 Features
 
@@ -12,7 +13,7 @@ NetSentry is a Python-based network security auditing tool designed to discover 
 - Security Statistics
 - PDF Security Report Generation
 
-## 🛠️ Technologies Used
+## 🛠️ Technologies
 
 - Python
 - Nmap
@@ -28,17 +29,10 @@ NetSentry/
 ├── app.py
 ├── main.py
 ├── scanner/
-│   ├── network_discovery.py
-│   ├── port_scanner.py
-│   ├── service_detection.py
-│   └── risk_analyzer.py
 ├── reports/
-│   ├── __init__.py
-│   └── pdf_report.py
 ├── templates/
-│   └── index.html
 ├── requirements.txt
-└── .gitignore
+└── README.md
 ```
 
 ## ⚙️ Installation
@@ -46,22 +40,22 @@ NetSentry/
 Clone the repository:
 
 ```bash
-git clone YOUR_GITHUB_REPOSITORY_URL
+git clone https://github.com/sreedevs224-byte/NetSentry.git
 ```
 
-Enter the project directory:
+Enter the project:
 
 ```bash
 cd NetSentry
 ```
 
-Create a virtual environment:
+Create virtual environment:
 
 ```bash
-python -m venv venv
+python3 -m venv venv
 ```
 
-Activate it:
+Activate:
 
 ```bash
 source venv/bin/activate
@@ -73,43 +67,43 @@ Install dependencies:
 pip install -r requirements.txt
 ```
 
-Make sure Nmap is installed:
+Install Nmap:
 
 ```bash
 sudo apt install nmap
 ```
 
-## ▶️ Run NetSentry
+## ▶️ Usage
 
-### Command-line interface
+Run command-line version:
 
 ```bash
 python main.py
 ```
 
-### Web dashboard
+Run web dashboard:
 
 ```bash
 python app.py
 ```
 
-Open your browser:
+Open browser:
 
 ```text
 http://127.0.0.1:5000
 ```
 
-Enter an authorized private IP address to perform a scan.
+Enter an authorized private IP address to analyze the network.
 
 ## 📊 Security Analysis
 
-NetSentry provides preliminary risk indicators based on port states and predefined rules.
+NetSentry provides preliminary security risk indicators based on port states and predefined rules.
 
-**Note:** These indicators are not confirmed vulnerability findings. Open ports do not automatically mean a system is vulnerable.
+These indicators are not confirmed vulnerability findings.
 
 ## 🔐 Disclaimer
 
-This tool is intended for educational purposes and authorized security testing only.
+This project is intended for educational purposes and authorized security testing only.
 
 Only scan networks and devices that you own or have explicit permission to test.
 
